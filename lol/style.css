@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 90%;
+    background-color: rgba(224, 216, 240, 0.507);
+}
+.img img{
+    width:830px;
+    height: 625px;
+    float: right;
+}
+.dados{
+    width: 360px;
+    float: right;
+    margin-top: 3rem;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+}
+.icone img{
+    width: 13px;
+    height: 13px;
+    
+}
+.icone p{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    margin-left: 280px;
+    margin-top: 3rem;
+    word-wrap:break-word;
+}
+#titulo1{
+    word-wrap:break-word;
+    width: 50px;
+}
+#titulo2{
+    width: 150px;
+    float: right;
+    margin: -50px;
+}
+.login{
+    width: 360px;
+    height: 450px;
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+    justify-content: center;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+.login h2{
+    padding-bottom: 2rem;
+}
+#nome{
+    width: 310px;
+    height: 40px;
+    font-size: 8px;
+    font-weight: bolder;
+    padding-left: 13px;
+    border-radius: 5px;
+    background-color: rgba(211, 208, 211, 0.603);
+    border: hidden;
+}
+#senha{
+    margin-top: 1rem;
+    width: 310px;
+    height: 40px;
+    font-size: 8px;
+    font-weight: bolder;
+    padding-left: 13px;
+    border-radius: 5px;
+    background-color: rgba(211, 208, 211, 0.603);
+    border: hidden;
+}
+.manterLogin{
+   font-size: 12px;
+}
+.manterLogin input{
+    width: 10px;
+    margin-right: 2px;
+}
+button img{
+    width: 22px;
+    height: 20px;
+    
+}
+button{
+    height: 45px;
+    width: 45px;
+    margin-left: 38%;
+    margin-top: 80px;
+    border: 2px solid rgba(211, 208, 211, 0.603);
+    border-radius: 13px;
+}
+.footer a{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-decoration: none;
+    padding-top: 4px;
+    font-size: 10px;
+    color: rgba(128, 123, 128, 0.979);    
+}
+.footerP{
+    width: 40px;
+    float: right;    
+    margin-top: -10px;
+    font-size: 12px;
+    color: rgba(128, 123, 128, 0.781);   
+    margin-right: 40px;
+}
